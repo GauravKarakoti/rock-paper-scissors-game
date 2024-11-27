@@ -1,0 +1,13 @@
+[package]
+name="RockPaperScissors_01"
+version="1.0.0"
+authors=[]
+[addresses]
+supermove="0xd22c74ffd06bb844c7918bb9d5df622d02b16e7860f1b4647c57f8a9cf64d6b1"
+std="0x1"
+[dev-addresses]
+[dependencies.AptosFramework]
+git="https://github.com/aptos-labs/aptos-core.git"
+rev="mainnet"
+subdir="aptos-move/framework/aptos-framework"
+[dev-dependencies]
